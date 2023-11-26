@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>AI Heart Disease System</title>
+    <link rel="icon" href="img/home_logo.jpeg" type="image/png">
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h2>Bem-Vindo ao AI Heart Disease System</h2>
+            <br>
+            <p>Este sistema foi desenvolvido para auxiliar no diagnóstico de doenças cardíacas.</p>
+            <p>Para isso, basta preencher os campos abaixo com os dados do paciente e clicar em "Diagnosticar".</p>
+        </div>
+        <!-- <div class="banner">
+            <img src="img/home.jpeg">
+        </div> -->
+    </header>
+
+     <!-- Opções para adicionar um novo item -->
+     
+    <section class="newItem">
+        <input type="text" id="newInput" placeholder="Nome" style="width:500px">
+    </section>
+
+    <section class="newItem">
+        <input type="text" id="newAge" placeholder="Age" title="age (int): age in years">
+        <input type="text" id="newSex" placeholder="Sex" title="sex (int): sex (1 = male; 0 = female)">
+        <input type="text" id="newCp" placeholder="Cp" title="cp (int): chest pain type
+        -- Value 0: typical angina
+        -- Value 1: atypical angina
+        -- Value 2: non-anginal pain
+        -- Value 3: asymptomatic">
+        <input type="text" id="newTrestbps" placeholder="Trestbps" title="trestbps (int): resting blood pressure (in mm Hg on admission to the hospital)">
+        <input type="text" id="newChol" placeholder="Chol" title="chol (int): serum cholestoral in mg/dl">
+        <input type="text" id="newFbs" placeholder="Fbs" title="fbs (int): (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)">
+        <input type="text" id="newRestecg" placeholder="Restecg" title="restecg (int): resting electrocardiographic results
+        -- Value 0: normal
+        -- Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
+        -- Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria">
+    </section>
+    <section class="newItem">        
+        <input type="text" id="newThalach" placeholder="Thalach" title="thalach (int): maximum heart rate achieved">
+        <input type="text" id="newExang" placeholder="Exang" title="exang (int): exercise induced angina (1 = yes; 0 = no)">
+        <input type="text" id="newOldpeak" placeholder="Oldpeak" title="oldpeak (float): ST depression induced by exercise relative to rest">
+        <input type="text" id="newSlope" placeholder="Slope" title="slope (int): the slope of the peak exercise ST segment
+        -- Value 0: upsloping
+        -- Value 1: flat
+        -- Value 2: downsloping">
+        <input type="text" id="newCa" placeholder="Ca" title="ca (int): number of major vessels (0-3) colored by flourosopy">
+        <input type="text" id="newThal" placeholder="Thal" title="thal (int): 0 = normal; 1 = fixed defect; 2 = reversable defect and the label">
+    </section>
+    <section class="newItem">
+        <span onclick="newItem()" class="addBtn">Diagnosticar</span>
+    </section>
+    <!-- Tabela com items existentes -->
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th>Nome</th>
+                <th>Age</th>
+                <th>Sex</th>
+                <th>Cp</th>
+                <th>Trestbps</th>
+                <th>Chol</th>
+                <th>Fbs</th>
+                <th>Restecg</th>
+                <th>Thalach</th>
+                <th>Exang</th>
+                <th>Oldpeak</th>
+                <th>Slope</th>
+                <th>Ca</th>
+                <th>Thal</th>
+                <th>Condition</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15" height="15"></th>
+                <!-- <th><img src="img/edit.png" width="15" height="15"></th> -->
+            </tr>
+        </table>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+
