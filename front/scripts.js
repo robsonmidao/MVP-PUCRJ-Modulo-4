@@ -75,7 +75,7 @@ const postItem = async (inputPatient, inputAge, inputSex,
     method: 'post',
     body: formData
   })
-    .then((response) => response.json())
+    .then((response) => location.reload())
     .catch((error) => {
       console.error('Error:', error);
     });
