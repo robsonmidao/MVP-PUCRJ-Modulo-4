@@ -1,6 +1,7 @@
 from flask_openapi3 import OpenAPI, Info, Tag
 from flask import redirect
 from urllib.parse import unquote
+import joblib
 
 from sqlalchemy.exc import IntegrityError
 
@@ -93,7 +94,8 @@ def predict(form: PacienteSchema):
     
     # Carregando modelo
     ml_path = 'ml_model/classificador.pkl'
-    modelo = Model.carrega_modelo(ml_path)
+    scaler = joblib.load('ml_model/scaler.joblib')
+    modelo = Model.carrega_modelo(ml_path, scaler)
     
     paciente = Paciente(
         name=form.name.strip(),
