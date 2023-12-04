@@ -5,7 +5,7 @@ from typing import Union
 
 from  model import Base
 
-# colunas = Nome,Idade,Sexo,CP,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,condition
+# colunas = name,age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,condition
 
 class Paciente(Base):
     __tablename__ = 'pacientes'

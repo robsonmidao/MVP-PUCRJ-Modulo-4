@@ -8,19 +8,19 @@ class PacienteSchema(BaseModel):
     """ Define como um novo paciente a ser inserido deve ser representado
     """
     name: str = 'Robson'
-    age: int = 31
+    age: int = 42
     sex: int = 1
-    cp: int = 1
-    trestbps: int = 111
-    chol: int = 122
-    fbs: int = 1
+    cp: int = 0
+    trestbps: int = 148
+    chol: int = 244
+    fbs: int = 0
     restecg: int = 2
-    thalach: int = 173
-    exang: int = 1
-    oldpeak: float = 1.6
-    slope: int = 1
-    ca: int = 1
-    thal: int = 2
+    thalach: int = 178
+    exang: int = 0
+    oldpeak: float = 0.8
+    slope: int = 0
+    ca: int = 2
+    thal: int = 0
     
 class PacienteViewSchema(BaseModel):
     """Define como um paciente será retornado
