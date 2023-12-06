@@ -33,11 +33,11 @@ flask run --host 0.0.0.0 --port 5000 --reload
 
 ## Roteiro geral
 
-O projeto conta com o cadastro de dados de pessoal que fizeram tesete para covid. É possível verificar os detalhes sobre o paciente e o diagnóstico.
+O projeto conta com o cadastro de dados de pessoal que fizeram testes para doença cardíaca. É possível verificar os detalhes sobre o paciente e o diagnóstico.
 
 ## Informações do código
 
-O código js contem uma forma de obtenção de id, fazer requisições e consumir apis personalizada facilitando o entendimento
+O código js contem uma forma de obtenção de id, fazer requisições e consumir apis personalizada facilitando o entendimento.
 
 ## Meu Front
 
@@ -47,8 +47,8 @@ Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
 
 # Notebook Colab
 
-https://colab.research.google.com/drive/1PmEglRh__gl69f7Kk5su_65l0e8lQrQh?usp=sharing
+https://colab.research.google.com/drive/1LVLDMG2b1JuEzmeJxvMTJNx_f73LDdA5?usp=sharing
 
 # Vídeo
 
-https://colab.research.google.com/drive/1PmEglRh__gl69f7Kk5su_65l0e8lQrQh?usp=sharing
+http://youtube.com/xxxxxxxxxxxxxxxxxxxx
