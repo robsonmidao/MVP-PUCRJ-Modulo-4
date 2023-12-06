@@ -1,8 +1,6 @@
 # Meu Front
 
-Este pequeno projeto faz parte do material diático da Disciplina **Desenvolvimento Full Stack Básico** 
-
-O objetivo aqui é ilutsrar o conteúdo apresentado na terceira aula.
+Este projeto foi desenvolvido para atuar junto com a API de diagnóstico de doenças cardíacas. 
 
 ---
 ## Como executar
