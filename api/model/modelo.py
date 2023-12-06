@@ -20,9 +20,16 @@ class Model:
         
         return model
     
-    def carrega_modelo_teste(path, scaler=None):
-        with open(path, 'rb') as file:
-            model = pickle.load(file)
+    def carrega_modelo_teste_lr(path, scaler=None):
+        model = pickle.load(open('ml_model/HeartDisease_lr.pkl', 'rb'))
+        
+        if scaler is not None:
+            model.scaler = scaler
+              
+        return model
+    
+    def carrega_modelo_teste_knn(path, scaler=None):
+        model = pickle.load(open('ml_model/classificador.pkl', 'rb'))
         
         if scaler is not None:
             model.scaler = scaler
@@ -48,3 +55,4 @@ class Model:
         diagnosis = model.predict(X_input_scaled.reshape(1, -1))
         
         return int(diagnosis[0])
+    
