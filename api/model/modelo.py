@@ -20,6 +20,15 @@ class Model:
         
         return model
     
+    def carrega_modelo_teste(path, scaler=None):
+        with open(path, 'rb') as file:
+            model = pickle.load(file)
+        
+        if scaler is not None:
+            model.scaler = scaler
+              
+        return model
+    
     def preditor(model, form):
         """
         Realiza a predição de um paciente com base no modelo treinado
