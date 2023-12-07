@@ -50,7 +50,7 @@ https://colab.research.google.com/drive/1LVLDMG2b1JuEzmeJxvMTJNx_f73LDdA5?usp=sh
 
 # Vídeo
 
-http://youtube.com/xxxxxxxxxxxxxxxxxxxx
+https://youtu.be/IX-xFmwwElQ
 
 # CSV
 https://github.com/robsonmidao/MVP-PUCRJ-Modulo-4-dataset/blob/main/Dataset.csv
