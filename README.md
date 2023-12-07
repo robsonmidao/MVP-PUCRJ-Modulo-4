@@ -1,12 +1,11 @@
 # Projeto
 
-Este pequeno projeto faz parte do material diático da Sprint **Qualidade de Software, Segurança e Sistemas Inteligentes**
-
-O objetivo aqui é ilutsrar o conteúdo apresentado na terceira aula.
+Este projeto é pertinente a aplicação "AI Heart Disease System".
+Esta aplicação realiza predições se um paciente é forte candidato a ter doença cardíaca ou não.
 
 ## Meu Back
 
-Este pequeno projeto é o mvp do **Sprint Arquitetura de Software**
+Este pequeno projeto é o mvp do **AI Heart Disease System**
 
 ## Como executar
 
